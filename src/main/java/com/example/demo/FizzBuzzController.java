@@ -24,7 +24,7 @@ public class FizzBuzzController {
 			if (num % 7 == 0) {
 				result += "Ass ";
 			}else {
-				System.out.println("営業");
+				System.out.println("営　　業");
 			}
 		}
 		mv.addObject("result", result);
